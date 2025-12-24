@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Admission Form</title>
+</head>
+<body>
+
+<h2>Student Admission Form</h2>
+
+<form action="#" method="post">
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+    <label>Course Applied For:</label><br>
+    <select name="course">
+        <option value="Science">Science</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Arts">Arts</option>
+    </select><br><br>
+
+    <label>Previous Qualification:</label><br>
+    <input type="text" name="qualification"><br><br>
+
+    <label>Upload Photo:</label><br>
+    <input type="file" name="photo"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
